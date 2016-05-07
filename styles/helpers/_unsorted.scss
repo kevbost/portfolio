@@ -1,0 +1,62 @@
+.splash-view {
+    height: calc(100vh - 21px - 50px);
+    .about-splash {
+        height: 100%;
+        text-align: center;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-content: stretch;
+        align-items: center;
+
+        h1 {
+            font-size: 100px;
+            font-weight: 800;
+            // line-height: 5rem;
+            color: white;
+            text-shadow: -.0375em 0 0 rgba(48,48,48,.1);
+        }
+
+        h2 {
+            font-size: 40px;
+            font-weight: 100;
+        }
+    }
+}
+
+.about-view,
+.portfolio-view {
+    padding-top: 15px;
+    min-height: 100vh;
+}
+
+.nav-test {
+    .nav-item {
+        .nav-link {
+            padding: 13px 1em;
+        }
+    }
+}
+
+.card-container {
+    @include media-breakpoint-down(xs) {
+        padding-top: 5px;
+    }
+}
+
+.section-title-bar {
+    @extend .blue-grey;
+    padding: 1rem 1.5rem;
+    border-top: 1px solid #37474f;
+    border-bottom: 1px solid #37474f;
+
+    h1 {
+        margin: 0;
+        font-family: jaf-facitweb,sans-serif;
+        font-weight: 800;
+        font-size: 55px!important;
+        color: white;
+    }
+}

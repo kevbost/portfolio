@@ -1,0 +1,23 @@
+<template bindable="router">
+<div class="nav-test">
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link active" href="#">Active</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Another link</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+        </li>
+        <li repeat.for="row of router.navigation" class="nav-item ${row.isActive ? 'active' : ''}">
+            <a class="nav-link red" href.bind="row.href">
+                ${row.title}
+            </a>
+        </li>
+    </ul>
+</div>
+</template>
