@@ -29,7 +29,7 @@
 .about-view,
 .portfolio-view {
     padding-top: 15px;
-    min-height: 100vh;
+    min-height: calc(100vh - 94px - 21px);
 }
 
 .nav-test {
@@ -59,4 +59,26 @@
         font-size: 55px!important;
         color: white;
     }
+}
+
+.child-router {
+    @extend .grey;
+    @extend .darken-3;
+    height: calc(100vh - 21px);
+    position: fixed;
+
+    .nav-item {
+        background-color: red;
+        .nav-link {
+            color: white;
+        }
+    }
+}
+
+.router-view {
+    float: right;
+}
+
+.main {
+    background-color: white;
 }

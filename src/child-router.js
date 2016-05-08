@@ -14,7 +14,14 @@ export class ChildRouter {
             moduleId: 'json_data/json_data',
             nav: true,
             title: 'JSON Data'
-        }]);
+        }, {
+            route: 'portfolio',
+            name: 'portfolio',
+            moduleId: 'welcome/portfolio',
+            nav: true,
+            title: 'Portfolio'
+        }
+        ]);
 
         this.router = router;
     }

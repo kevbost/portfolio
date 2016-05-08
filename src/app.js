@@ -17,6 +17,20 @@ export class App {
                 moduleId: 'child-router',
                 nav: false,
                 title: 'Child Router'
+            },
+            {
+                route: 'portfolio',
+                name: 'portfolio',
+                moduleId: 'portfolio/portfolio',
+                nav: true,
+                title: 'Portfolio'
+            },
+            {
+                route: 'about',
+                name: 'about',
+                moduleId: 'about/about',
+                nav: true,
+                title: 'About'
             }
         ]);
 
