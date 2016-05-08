@@ -49,8 +49,8 @@
 section {
     // margin: 0 20px;
     &.au-enter-active {
-        -webkit-animation: fadeInRight 1s;
-        animation: fadeInRight 1s;
+        -webkit-animation: fadeInRight .5s;
+        animation: fadeInRight .5s;
     }
 }
 

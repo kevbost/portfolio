@@ -1,5 +1,5 @@
 export class About {
-    heading = 'About';
+    heading = 'about';
 
     constructor() {
 

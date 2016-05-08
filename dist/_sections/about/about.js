@@ -16,7 +16,7 @@ System.register([], function (_export, _context) {
                 function About() {
                     _classCallCheck(this, About);
 
-                    this.heading = 'About';
+                    this.heading = 'about';
                 }
 
                 About.prototype.attached = function attached() {
@@ -30,4 +30,4 @@ System.register([], function (_export, _context) {
         }
     };
 });
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFib3V0L2Fib3V0LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7OzZCQUFhLEs7QUFHVCxpQ0FBYztBQUFBOztBQUFBLHlCQUZkLE9BRWMsR0FGSixPQUVJO0FBRWI7O2dDQUVELFEsdUJBQVc7QUFDUCw0QkFBUSxHQUFSLENBQVksV0FBWjtBQUNILGlCIiwiZmlsZSI6ImFib3V0L2Fib3V0LmpzIiwic291cmNlUm9vdCI6Ii9zcmMifQ==
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIl9zZWN0aW9ucy9hYm91dC9hYm91dC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs2QkFBYSxLO0FBR1QsaUNBQWM7QUFBQTs7QUFBQSx5QkFGZCxPQUVjLEdBRkosT0FFSTtBQUViOztnQ0FFRCxRLHVCQUFXO0FBQ1AsNEJBQVEsR0FBUixDQUFZLFdBQVo7QUFDSCxpQiIsImZpbGUiOiJfc2VjdGlvbnMvYWJvdXQvYWJvdXQuanMiLCJzb3VyY2VSb290IjoiL3NyYyJ9

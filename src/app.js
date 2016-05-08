@@ -5,9 +5,9 @@ export class App {
         config.title = 'Kevin Bost';
         config.map([
             {
-                route: ['', 'welcome'],
-                name: 'welcome',
-                moduleId: 'welcome/welcome',
+                route: ['', 'home'],
+                name: 'home',
+                moduleId: 'home/home',
                 nav: false,
                 title: 'Welcome'
             },
@@ -21,14 +21,14 @@ export class App {
             {
                 route: 'portfolio',
                 name: 'portfolio',
-                moduleId: 'portfolio/portfolio',
+                moduleId: '_sections/portfolio/portfolio',
                 nav: true,
                 title: 'Portfolio'
             },
             {
                 route: 'about',
                 name: 'about',
-                moduleId: 'about/about',
+                moduleId: '_sections/about/about',
                 nav: true,
                 title: 'About'
             }

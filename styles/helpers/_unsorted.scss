@@ -64,8 +64,8 @@
 .child-router {
     @extend .grey;
     @extend .darken-3;
-    height: calc(100vh - 21px);
-    position: fixed;
+    // height: calc(100vh - 21px);
+    // position: fixed;
 
     .nav-item {
         background-color: red;
@@ -76,7 +76,7 @@
 }
 
 .router-view {
-    float: right;
+    // float: right;
 }
 
 .main {

@@ -21,23 +21,29 @@ System.register([], function (_export, _context) {
 
                 ChildRouter.prototype.configureRouter = function configureRouter(config, router) {
                     config.map([{
-                        route: ['', 'welcome'],
-                        name: 'welcome',
-                        moduleId: 'welcome/welcome',
+                        route: ['', 'home'],
+                        name: 'home',
+                        moduleId: 'home/home',
                         nav: true,
                         title: 'Welcome'
                     }, {
                         route: 'json_data',
                         name: 'json_data',
-                        moduleId: 'json_data/json_data',
+                        moduleId: '_sections/json_data/json_data',
                         nav: true,
                         title: 'JSON Data'
                     }, {
+                        route: 'about',
+                        name: 'about',
+                        moduleId: '_sections/about/about',
+                        nav: true,
+                        title: 'about'
+                    }, {
                         route: 'portfolio',
                         name: 'portfolio',
-                        moduleId: 'welcome/portfolio',
+                        moduleId: '_sections/portfolio/portfolio',
                         nav: true,
-                        title: 'Portfolio'
+                        title: 'portfolio'
                     }]);
 
                     this.router = router;
@@ -50,4 +56,4 @@ System.register([], function (_export, _context) {
         }
     };
 });
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNoaWxkLXJvdXRlci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7OzttQ0FBYSxXOzs7O3lCQUNULE8sR0FBVSxjOzs7c0NBRVYsZSw0QkFBZ0IsTSxFQUFRLE0sRUFBUTtBQUM1QiwyQkFBTyxHQUFQLENBQVcsQ0FBQztBQUNSLCtCQUFPLENBQUMsRUFBRCxFQUFLLFNBQUwsQ0FEQztBQUVSLDhCQUFNLFNBRkU7QUFHUixrQ0FBVSxpQkFIRjtBQUlSLDZCQUFLLElBSkc7QUFLUiwrQkFBTztBQUxDLHFCQUFELEVBTVI7QUFDQywrQkFBTyxXQURSO0FBRUMsOEJBQU0sV0FGUDtBQUdDLGtDQUFVLHFCQUhYO0FBSUMsNkJBQUssSUFKTjtBQUtDLCtCQUFPO0FBTFIscUJBTlEsRUFZUjtBQUNDLCtCQUFPLFdBRFI7QUFFQyw4QkFBTSxXQUZQO0FBR0Msa0NBQVUsbUJBSFg7QUFJQyw2QkFBSyxJQUpOO0FBS0MsK0JBQU87QUFMUixxQkFaUSxDQUFYOztBQXFCQSx5QkFBSyxNQUFMLEdBQWMsTUFBZDtBQUNILGlCIiwiZmlsZSI6ImNoaWxkLXJvdXRlci5qcyIsInNvdXJjZVJvb3QiOiIvc3JjIn0=
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNoaWxkLXJvdXRlci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7OzttQ0FFYSxXOzs7O3lCQUNULE8sR0FBVSxjOzs7c0NBRVYsZSw0QkFBZ0IsTSxFQUFRLE0sRUFBUTtBQUM1QiwyQkFBTyxHQUFQLENBQVcsQ0FBQztBQUNSLCtCQUFPLENBQUMsRUFBRCxFQUFLLE1BQUwsQ0FEQztBQUVSLDhCQUFNLE1BRkU7QUFHUixrQ0FBVSxXQUhGO0FBSVIsNkJBQUssSUFKRztBQUtSLCtCQUFPO0FBTEMscUJBQUQsRUFNUjtBQUNDLCtCQUFPLFdBRFI7QUFFQyw4QkFBTSxXQUZQO0FBR0Msa0NBQVUsK0JBSFg7QUFJQyw2QkFBSyxJQUpOO0FBS0MsK0JBQU87QUFMUixxQkFOUSxFQVlSO0FBQ0MsK0JBQU8sT0FEUjtBQUVDLDhCQUFNLE9BRlA7QUFHQyxrQ0FBVSx1QkFIWDtBQUlDLDZCQUFLLElBSk47QUFLQywrQkFBTztBQUxSLHFCQVpRLEVBa0JSO0FBQ0MsK0JBQU8sV0FEUjtBQUVDLDhCQUFNLFdBRlA7QUFHQyxrQ0FBVSwrQkFIWDtBQUlDLDZCQUFLLElBSk47QUFLQywrQkFBTztBQUxSLHFCQWxCUSxDQUFYOztBQTJCQSx5QkFBSyxNQUFMLEdBQWMsTUFBZDtBQUNILGlCIiwiZmlsZSI6ImNoaWxkLXJvdXRlci5qcyIsInNvdXJjZVJvb3QiOiIvc3JjIn0=

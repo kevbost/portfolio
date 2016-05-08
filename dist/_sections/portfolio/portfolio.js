@@ -16,7 +16,7 @@ System.register([], function (_export, _context) {
                 function Portfolio() {
                     _classCallCheck(this, Portfolio);
 
-                    this.heading = 'Portfolio';
+                    this.heading = 'portfolio';
                 }
 
                 Portfolio.prototype.attached = function attached() {
@@ -30,4 +30,4 @@ System.register([], function (_export, _context) {
         }
     };
 });
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBvcnRmb2xpby9wb3J0Zm9saW8uanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7aUNBQWEsUztBQUdULHFDQUFjO0FBQUE7O0FBQUEseUJBRmQsT0FFYyxHQUZKLFdBRUk7QUFFYjs7b0NBRUQsUSx1QkFBVztBQUNQLDRCQUFRLEdBQVIsQ0FBWSxXQUFaO0FBQ0gsaUIiLCJmaWxlIjoicG9ydGZvbGlvL3BvcnRmb2xpby5qcyIsInNvdXJjZVJvb3QiOiIvc3JjIn0=
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIl9zZWN0aW9ucy9wb3J0Zm9saW8vcG9ydGZvbGlvLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7O2lDQUFhLFM7QUFHVCxxQ0FBYztBQUFBOztBQUFBLHlCQUZkLE9BRWMsR0FGSixXQUVJO0FBRWI7O29DQUVELFEsdUJBQVc7QUFDUCw0QkFBUSxHQUFSLENBQVksV0FBWjtBQUNILGlCIiwiZmlsZSI6Il9zZWN0aW9ucy9wb3J0Zm9saW8vcG9ydGZvbGlvLmpzIiwic291cmNlUm9vdCI6Ii9zcmMifQ==

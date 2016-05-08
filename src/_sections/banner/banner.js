@@ -1,5 +1,5 @@
-export class Portfolio {
-    heading = 'Portfolio';
+export class Banner {
+    heading = 'Banner';
 
     constructor() {
 

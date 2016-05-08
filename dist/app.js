@@ -20,9 +20,9 @@ System.register([], function (_export, _context) {
                 App.prototype.configureRouter = function configureRouter(config, router) {
                     config.title = 'Kevin Bost';
                     config.map([{
-                        route: ['', 'welcome'],
-                        name: 'welcome',
-                        moduleId: 'welcome/welcome',
+                        route: ['', 'home'],
+                        name: 'home',
+                        moduleId: 'home/home',
                         nav: false,
                         title: 'Welcome'
                     }, {
@@ -34,13 +34,13 @@ System.register([], function (_export, _context) {
                     }, {
                         route: 'portfolio',
                         name: 'portfolio',
-                        moduleId: 'portfolio/portfolio',
+                        moduleId: '_sections/portfolio/portfolio',
                         nav: true,
                         title: 'Portfolio'
                     }, {
                         route: 'about',
                         name: 'about',
-                        moduleId: 'about/about',
+                        moduleId: '_sections/about/about',
                         nav: true,
                         title: 'About'
                     }]);
@@ -57,4 +57,4 @@ System.register([], function (_export, _context) {
         }
     };
 });
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwcC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7OzsyQkFFYSxHOzs7Ozs4QkFDVCxlLDRCQUFnQixNLEVBQVEsTSxFQUFRO0FBQzVCLDJCQUFPLEtBQVAsR0FBZSxZQUFmO0FBQ0EsMkJBQU8sR0FBUCxDQUFXLENBQ1A7QUFDSSwrQkFBTyxDQUFDLEVBQUQsRUFBSyxTQUFMLENBRFg7QUFFSSw4QkFBTSxTQUZWO0FBR0ksa0NBQVUsaUJBSGQ7QUFJSSw2QkFBSyxLQUpUO0FBS0ksK0JBQU87QUFMWCxxQkFETyxFQVFQO0FBQ0ksK0JBQU8sY0FEWDtBQUVJLDhCQUFNLGNBRlY7QUFHSSxrQ0FBVSxjQUhkO0FBSUksNkJBQUssS0FKVDtBQUtJLCtCQUFPO0FBTFgscUJBUk8sRUFlUDtBQUNJLCtCQUFPLFdBRFg7QUFFSSw4QkFBTSxXQUZWO0FBR0ksa0NBQVUscUJBSGQ7QUFJSSw2QkFBSyxJQUpUO0FBS0ksK0JBQU87QUFMWCxxQkFmTyxFQXNCUDtBQUNJLCtCQUFPLE9BRFg7QUFFSSw4QkFBTSxPQUZWO0FBR0ksa0NBQVUsYUFIZDtBQUlJLDZCQUFLLElBSlQ7QUFLSSwrQkFBTztBQUxYLHFCQXRCTyxDQUFYOztBQStCQSx5QkFBSyxNQUFMLEdBQWMsTUFBZDtBQUNILGlCOzs4QkFFRCxRLHVCQUFXLENBT1YsQyIsImZpbGUiOiJhcHAuanMiLCJzb3VyY2VSb290IjoiL3NyYyJ9
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwcC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7OzsyQkFFYSxHOzs7Ozs4QkFDVCxlLDRCQUFnQixNLEVBQVEsTSxFQUFRO0FBQzVCLDJCQUFPLEtBQVAsR0FBZSxZQUFmO0FBQ0EsMkJBQU8sR0FBUCxDQUFXLENBQ1A7QUFDSSwrQkFBTyxDQUFDLEVBQUQsRUFBSyxNQUFMLENBRFg7QUFFSSw4QkFBTSxNQUZWO0FBR0ksa0NBQVUsV0FIZDtBQUlJLDZCQUFLLEtBSlQ7QUFLSSwrQkFBTztBQUxYLHFCQURPLEVBUVA7QUFDSSwrQkFBTyxjQURYO0FBRUksOEJBQU0sY0FGVjtBQUdJLGtDQUFVLGNBSGQ7QUFJSSw2QkFBSyxLQUpUO0FBS0ksK0JBQU87QUFMWCxxQkFSTyxFQWVQO0FBQ0ksK0JBQU8sV0FEWDtBQUVJLDhCQUFNLFdBRlY7QUFHSSxrQ0FBVSwrQkFIZDtBQUlJLDZCQUFLLElBSlQ7QUFLSSwrQkFBTztBQUxYLHFCQWZPLEVBc0JQO0FBQ0ksK0JBQU8sT0FEWDtBQUVJLDhCQUFNLE9BRlY7QUFHSSxrQ0FBVSx1QkFIZDtBQUlJLDZCQUFLLElBSlQ7QUFLSSwrQkFBTztBQUxYLHFCQXRCTyxDQUFYOztBQStCQSx5QkFBSyxNQUFMLEdBQWMsTUFBZDtBQUNILGlCOzs4QkFFRCxRLHVCQUFXLENBT1YsQyIsImZpbGUiOiJhcHAuanMiLCJzb3VyY2VSb290IjoiL3NyYyJ9
