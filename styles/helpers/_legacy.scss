@@ -49,8 +49,8 @@
 section {
     // margin: 0 20px;
     &.au-enter-active {
-        -webkit-animation: fadeInRight .5s;
-        animation: fadeInRight .5s;
+        -webkit-animation: fadeIn .5s;
+        animation: fadeIn .5s;
     }
 }
 
@@ -136,7 +136,7 @@ section {
         -webkit-transform: translate3d(100%, 0, 0);
         -ms-transform: translate3d(100%, 0, 0);
         //Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
-        transform: translate3d(100%, 0, 0);
+        // transform: translate3d(100%, 0, 0);
     }
     100% {
         opacity: 1;

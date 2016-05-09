@@ -5,10 +5,14 @@
         </div>
         <div class="portfolio-view container-fluid blue-grey darken-2">
             <div class="main-content row">
-                <div class="col-md-6" repeat.for="row of stuff">
+                <div class="col-md-6" repeat.for="row of portfolioItems">
                     <div class="card-panel">
                         <p class="title">${row.name}</p>
-                        <p class="description">${row.description}</p>
+                        <p class="description">${row.description}
+                            <span class="repo">
+                                <a href="${row.repo}" target="_blank"> Github</a>
+                            </span>
+                        </p>
                         <div class="footer">
                             <div class="chip" repeat.for="tag of row.tags">
                                 ${tag}

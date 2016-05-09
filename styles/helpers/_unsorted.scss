@@ -12,7 +12,7 @@
         align-items: center;
 
         h1 {
-            font-size: 100px;
+            font-size: 60px;
             font-weight: 800;
             // line-height: 5rem;
             color: white;
@@ -20,7 +20,7 @@
         }
 
         h2 {
-            font-size: 40px;
+            font-size: 30px;
             font-weight: 100;
         }
     }
@@ -91,14 +91,16 @@ figure {
     }
     .title {
         font-weight: 800;
-        position: relative;
-        top: -5px;
-        left: -5px;
+        // position: relative;
+        // top: -5px;
+        // left: -5px;
         font-size: 25px;
     }
     .footer {
         // margin-top: 5px;
-        margin-left: -3px;
+        position: relative;
+        bottom: -5px;
+        margin-left: -4px;
         margin-right: -3px;
         .chip {
             @extend .grey;

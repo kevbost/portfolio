@@ -6,6 +6,6 @@ export class About {
     }
 
     attached() {
-        console.log('something');
+        // console.log(this);
     }
 }

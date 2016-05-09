@@ -2,10 +2,11 @@ export class Portfolio {
     heading = 'portfolio';
 
     constructor() {
-        this.stuff = [
+        this.portfolioItems = [
             {
                 name: 'This Portfolio',
                 description: 'This website!',
+                repo: 'https://github.com/kevbost/portfolio',
                 tags: [
                     'Aurelia',
                     'ES6'
@@ -14,6 +15,7 @@ export class Portfolio {
             {
                 name: 'Previous Portfolio',
                 description: 'My previous portfolio',
+                repo: 'https://github.com/kevbost/kb-portfolio',
                 tags: [
                     'this',
                     'that'
@@ -33,15 +35,18 @@ export class Portfolio {
             {
                 name: 'RFID ID Parser',
                 description: 'Parses RFID signals, used to test integration of RFID into software solution.',
+                repo: 'https://github.com/kevbost/node-RFID-collector-and-parser',
                 tags: [
                     'NodeJS',
                     'ES5',
-                    'ISS Logs'
+                    'ISS Logs',
+                    'inquirer.js'
                 ]
             },
             {
                 name: 'Environmental Sensor Collector/Parser',
                 description: 'Parses Temperature, Humidity, Light CSV.  Appends to log file.',
+                repo: 'https://github.com/kevbost/node-sensor-output-parser',
                 tags: [
                     'NodeJS',
                     'ES5',
@@ -52,6 +57,6 @@ export class Portfolio {
     }
 
     attached() {
-        console.log('something');
+        // console.log(this);
     }
 }

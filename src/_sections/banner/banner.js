@@ -6,6 +6,6 @@ export class Banner {
     }
 
     attached() {
-        console.log('something');
+        // console.log(this);
     }
 }
