@@ -1,10 +1,10 @@
 .navbar {
 
-    @include media-breakpoint-down(xs) {
+    // @include media-breakpoint-down(xs) {
         padding-top: 5px;
-    }
+    // }
 
-    @include media-breakpoint-up(sm) {
+    // @include media-breakpoint-up(sm) {
 
         padding-top: 5px;
         z-index: 5;
@@ -25,5 +25,5 @@
                 padding: 0;
             }
         }
-    }
+    // }
 }
