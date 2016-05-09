@@ -33,6 +33,7 @@ System.config({
     "fetch": "github:github/fetch@0.11.0",
     "font-awesome": "npm:font-awesome@4.5.0",
     "jquery": "github:components/jquery@2.2.1",
+    "json": "github:systemjs/plugin-json@0.1.2",
     "tether": "github:HubSpot/tether@1.3.2",
     "text": "github:systemjs/plugin-text@0.0.3",
     "github:jspm/nodelibs-assert@0.1.0": {
