@@ -1,25 +1,23 @@
 <template>
-<section class="portfolio au-animate">
-    <div class="section-title-bar">
-        <h1>portfolio</h1>
-    </div>
-    <div class="portfolio-view container-fluid blue-grey darken-2">
-        <div class="main-content row">
-            <div class="col-sm-6">
-                <div class="card-container">
+    <section class="portfolio au-animate">
+        <div class="section-title-bar">
+            <h1>portfolio</h1>
+        </div>
+        <div class="portfolio-view container-fluid blue-grey darken-2">
+            <div class="main-content row">
+                <div class="col-md-6" repeat.for="row of stuff">
                     <div class="card-panel">
-                        test
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6">
-                <div class="card-container">
-                    <div class="card-panel">
-                        test
+                        <p class="title">${row.name}</p>
+                        <p class="description">${row.description}</p>
+                        <div class="footer">
+                            <div class="chip" repeat.for="tag of row.tags">
+                                ${tag}
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 </template>
+

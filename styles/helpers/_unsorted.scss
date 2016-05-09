@@ -79,6 +79,33 @@
     // float: right;
 }
 
-.main {
-    background-color: white;
+figure {
+    @include media-breakpoint-down(xs) {
+        padding-top: 5px;
+    }
+}
+
+.card-panel {
+    p {
+        margin: 0;
+    }
+    .title {
+        font-weight: 800;
+        position: relative;
+        top: -10px;
+        left: -5px;
+    }
+    .footer {
+        // margin-top: 5px;
+        margin-left: -3px;
+        margin-right: -3px;
+        .chip {
+            @extend .grey;
+            @extend .lighten-4;
+            display: inline-block;
+            padding: 2px 5px;
+            margin: 0 3px;
+            font-size: 80%;
+        }
+    }
 }
