@@ -36,6 +36,7 @@ System.config({
     "json": "github:systemjs/plugin-json@0.1.2",
     "tether": "github:HubSpot/tether@1.3.2",
     "text": "github:systemjs/plugin-text@0.0.3",
+    "whatwg-fetch": "npm:whatwg-fetch@1.0.0",
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"
     },
@@ -217,6 +218,14 @@ System.config({
     ],
     "github:components/jquery@2.2.1.js": [
       "github:components/jquery@2.2.1/jquery"
+    ],
+    "_sections/about/about.js": [
+      "fetch",
+      "aurelia-fetch-client"
+    ],
+    "_sections/portfolio/portfolio.js": [
+      "fetch",
+      "aurelia-fetch-client"
     ],
     "main.js": [
       "bootstrap",
