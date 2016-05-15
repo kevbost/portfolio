@@ -1,0 +1,60 @@
+.portfolio-card {
+    position: relative;
+    // transition: 1s;
+    height: 200px;
+
+    &:hover {
+        // transition: 1s;
+
+        .portfolio-secondary {
+            height: 100%;
+            transition: .5s;
+        }
+    }
+
+    .portfolio-main {
+        @extend .card-panel;
+        @extend .z-depth-0;
+        height: 100%;
+
+        p {
+            margin: 0;
+        }
+
+        .title {
+            font-size: 25px;
+            font-weight: 800;
+            // position: relative;
+            // top: -5px;
+            // left: -5px;
+        }
+
+        .footer {
+            // margin-top: 5px;
+            position: relative;
+            bottom: -5px;
+            margin-right: -3px;
+            margin-left: -4px;
+
+            .chip {
+                @extend .grey;
+                @extend .lighten-4;
+                display: inline-block;
+                margin: 0 3px;
+                padding: 2px 5px;
+                font-size: 80%;
+            }
+        }
+    }
+
+    .portfolio-secondary {
+        // position: absolute;
+        // // top: 0;
+        // right: 0;
+        // bottom: 0;
+        // left: 0;
+        // height: 0%;
+        // background-color: $red;
+        // overflow: hidden;
+    }
+}

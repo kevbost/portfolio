@@ -1,0 +1,107 @@
+{
+    "about": {
+        "paragraphs": [
+            "Front-end web engineer | artist | originally from Greenville, SC",
+            "I am a web programmer finding the best place for myself in the developers’ work force. Successful problem solving drives my work and makes the challenge of coding enjoyable and exciting. I am inspired and ready to work hard with my colleagues to create user friendly and fun web experiences."
+        ],
+        "section_titles": {
+            "main": "Kevin Bost",
+            "toolbox": "Toolbox"
+        },
+        "toolbox": [
+            {
+                "title": "Advanced",
+                "tags": [ "RWD, Advanced SASS, HTML5, GIT, Javascript, NodeJS, Gulp, UnderscoreJS, Bootstrap 4, Sublime Text, Electron, VSCode, iTerm, ConEmu, ~/. zshrc, Markdown, Unix"
+                ]
+            },
+            {
+                "title": "Experience",
+                "tags": [
+                    "Angular 1.x, Aurelia, Durandal/Knockout, Backbone, Version1, `${ES2015}`"
+                ]
+            },
+            {
+                "title": "Working",
+                "tags": [
+                    "LESS, Electron, React, Meteor, Mongo/Mongoose, Functional JS, Razor, ASP.NET"
+                ]
+            },
+            {
+                "title": "Plus",
+                "tags": [
+                    "Visual Studio 2015 TFS, RFID Integration, Unreal, Arduino, Spark/Particle"
+                ]
+            },
+            {
+                "title": "Design",
+                "tags": [
+                    "Proficient in Adobe Photoshop, InDesign, Illustrator, Lightroom"
+                ]
+            },
+            {
+                "title": "Office",
+                "tags": [
+                    "Experienced use of Microsoft Word, Excel, Outlook, Google Docs Suite, Enspire"
+                ]
+            },
+            {
+                "title": "OS",
+                "tags": [
+                    "Advanced control of OSX, Microsoft Windows 7. Working use of Debian, Fedora"
+                ]
+            }
+        ]
+    },
+    "portfolio": [
+        {
+            "name": "This Portfolio",
+            "description": "This website!",
+            "repo": "https://github.com/kevbost/portfolio",
+            "tags": [
+                "Aurelia",
+                "ES6"
+            ]
+        },
+        {
+            "name": "Previous Portfolio",
+            "description": "My previous portfolio",
+            "repo": "https://github.com/kevbost/kb-portfolio",
+            "tags": [
+                "this",
+                "that"
+            ]
+        },
+        {
+            "name": "Zeva",
+            "description": "Evaluate any stuff",
+            "tags": [
+                "ASP.NET",
+                "Durandal",
+                "Knockout",
+                "SASS",
+                "Gulp"
+            ]
+        },
+        {
+            "name": "RFID ID Parser",
+            "description": "Parses RFID signals, used to test integration of RFID into software solution.",
+            "repo": "https://github.com/kevbost/node-RFID-collector-and-parser",
+            "tags": [
+                "NodeJS",
+                "ES5",
+                "ISS Logs",
+                "inquirer.js"
+            ]
+        },
+        {
+            "name": "Environmental Sensor Collector/Parser",
+            "description": "Parses Temperature, Humidity, Light CSV.  Appends to log file.",
+            "repo": "https://github.com/kevbost/node-sensor-output-parser",
+            "tags": [
+                "NodeJS",
+                "ES5",
+                "ISS Logs"
+            ]
+        }
+    ]
+}

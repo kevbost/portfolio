@@ -1,22 +1,23 @@
 .splash-view {
     height: calc(100vh - 21px - 50px);
+
     .about-splash {
-        height: 100%;
-        text-align: center;
-        overflow: hidden;
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
-        justify-content: center;
         align-content: stretch;
         align-items: center;
+        justify-content: center;
+
+        height: 100%;
+        text-align: center;
+        overflow: hidden;
 
         h1 {
+            color: $white;
             font-size: 60px;
             font-weight: 800;
-            // line-height: 5rem;
-            color: white;
-            text-shadow: -.0375em 0 0 rgba(48,48,48,.1);
+            text-shadow: -.0375em 0 0 transparentize($gray-dark, .1);
         }
 
         h2 {
@@ -28,8 +29,8 @@
 
 .about-view,
 .portfolio-view {
-    padding-top: 15px;
     min-height: calc(100vh - 94px - 21px);
+    padding-top: 15px;
 }
 
 .nav-test {
@@ -48,16 +49,18 @@
 
 .section-title-bar {
     @extend .blue-grey;
+
+    $blue-grey-base: map-get($blue-grey, "base");
     padding: 1rem 1.5rem;
-    border-top: 1px solid #37474f;
-    border-bottom: 1px solid #37474f;
+    border-top: 1px solid $blue-grey-base;
+    border-bottom: 1px solid $blue-grey-base;
 
     h1 {
         margin: 0;
-        font-family: jaf-facitweb,sans-serif;
+        color: $white;
+        font-family: jaf-facitweb, sans-serif;
+        font-size: 55px !important;
         font-weight: 800;
-        font-size: 55px!important;
-        color: white;
     }
 }
 
@@ -68,9 +71,10 @@
     // position: fixed;
 
     .nav-item {
-        background-color: red;
+        background-color: $red;
+
         .nav-link {
-            color: white;
+            color: $white;
         }
     }
 }
@@ -82,33 +86,5 @@
 figure {
     @include media-breakpoint-down(xs) {
         padding-top: 5px;
-    }
-}
-
-.card-panel {
-    p {
-        margin: 0;
-    }
-    .title {
-        font-weight: 800;
-        // position: relative;
-        // top: -5px;
-        // left: -5px;
-        font-size: 25px;
-    }
-    .footer {
-        // margin-top: 5px;
-        position: relative;
-        bottom: -5px;
-        margin-left: -4px;
-        margin-right: -3px;
-        .chip {
-            @extend .grey;
-            @extend .lighten-4;
-            display: inline-block;
-            padding: 2px 5px;
-            margin: 0 3px;
-            font-size: 80%;
-        }
     }
 }

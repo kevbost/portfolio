@@ -6,17 +6,22 @@
         <div class="portfolio-view container-fluid blue-grey darken-2">
             <div class="main-content row">
                 <div class="col-md-6" repeat.for="row of portfolioItems">
-                    <div class="card-panel">
-                        <p class="title">${row.name}</p>
-                        <p class="description">${row.description}
-                            <span class="repo">
-                                <a href="${row.repo}" target="_blank"> Github</a>
-                            </span>
-                        </p>
-                        <div class="footer">
-                            <div class="chip" repeat.for="tag of row.tags">
-                                ${tag}
+                    <div class="portfolio-card">
+                        <div class="portfolio-main">
+                            <p class="title">${row.name}</p>
+                            <p class="description">${row.description}
+                                <span class="repo">
+                                    <a href="${row.repo}" target="_blank"> Github</a>
+                                </span>
+                            </p>
+                            <div class="footer">
+                                <div class="chip" repeat.for="tag of row.tags">
+                                    ${tag}
+                                </div>
                             </div>
+                        </div>
+                        <div class="portfolio-secondary hidden">
+                            <h1>hi!</h1>
                         </div>
                     </div>
                 </div>
@@ -24,4 +29,3 @@
         </div>
     </section>
 </template>
-
