@@ -56,6 +56,7 @@
             "name": "This Portfolio",
             "description": "This website!",
             "repo": "https://github.com/kevbost/portfolio",
+            "img_url": null,
             "tags": [
                 "Aurelia",
                 "ES6"
@@ -65,6 +66,7 @@
             "name": "Previous Portfolio",
             "description": "My previous portfolio",
             "repo": "https://github.com/kevbost/kb-portfolio",
+            "img_url": null,
             "tags": [
                 "this",
                 "that"
@@ -73,6 +75,7 @@
         {
             "name": "Zeva",
             "description": "Evaluate any stuff",
+            "img_url": null,
             "tags": [
                 "ASP.NET",
                 "Durandal",
@@ -85,6 +88,7 @@
             "name": "RFID ID Parser",
             "description": "Parses RFID signals, used to test integration of RFID into software solution.",
             "repo": "https://github.com/kevbost/node-RFID-collector-and-parser",
+            "img_url": null,
             "tags": [
                 "NodeJS",
                 "ES5",
@@ -94,8 +98,9 @@
         },
         {
             "name": "Environmental Sensor Collector/Parser",
-            "description": "Parses Temperature, Humidity, Light CSV.  Appends to log file.",
+            "description": "Parses Temperature, Humidity, Light into CSV.  Appends to log file.",
             "repo": "https://github.com/kevbost/node-sensor-output-parser",
+            "img_url": null,
             "tags": [
                 "NodeJS",
                 "ES5",
