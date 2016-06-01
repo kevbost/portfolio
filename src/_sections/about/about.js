@@ -2,12 +2,9 @@ import 'fetch';
 import {HttpClient} from 'aurelia-fetch-client';
 
 let httpClient = new HttpClient();
-let hi;
 
 export class About {
     heading = 'about';
-    // paragraphs = [`<h1>test test</h1>`];
-    // paragraphs = [];
 
     constructor() {
         // ------------------
@@ -18,8 +15,6 @@ export class About {
         .then(data => {
             this.about = data.about;
             this.paragraphs = data.about.paragraphs;
-            // this.convertJsonToHTML(data.about.paragraphs);
-            // console.log(data.about.paragraphs[0])
         });
 
     }

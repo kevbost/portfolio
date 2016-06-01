@@ -127,7 +127,6 @@ rules:
   variable-for-property:
     - 1
     - properties:
-        - color
         - font
   variable-name-format:
     - 0

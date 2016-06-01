@@ -1,11 +1,15 @@
 .about-view {
     font-size: 16px;
 
+    .main-content {
+        padding: 2rem 0;
+    }
+
     .about-block {
         margin-bottom: 2rem;
 
         .toolbox-title {
-
+            font-size: 1rem;
         }
     }
 }

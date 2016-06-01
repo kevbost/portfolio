@@ -1,33 +1,5 @@
-.splash-view {
-    height: calc(100vh - 21px - 50px);
 
-    .about-splash {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        align-content: stretch;
-        align-items: center;
-        justify-content: center;
 
-        height: 100%;
-        text-align: center;
-        overflow: hidden;
-
-        h1 {
-            color: $white;
-            font-size: 60px;
-            font-weight: 800;
-            text-shadow: -.0375em 0 0 transparentize($gray-dark, .1);
-        }
-
-        h2 {
-            font-size: 30px;
-            font-weight: 100;
-        }
-    }
-}
-
-.about-view,
 .portfolio-view {
     min-height: calc(100vh - 94px - 21px);
     padding-top: 15px;
@@ -51,6 +23,7 @@
     @extend .blue-grey;
 
     $blue-grey-base: map-get($blue-grey, "base");
+
     padding: 1rem 1.5rem;
     border-top: 1px solid $blue-grey-base;
     border-bottom: 1px solid $blue-grey-base;
@@ -66,7 +39,9 @@
 
 .child-router {
     @extend .grey;
+
     @extend .darken-3;
+
     // height: calc(100vh - 21px);
     // position: fixed;
 
@@ -88,3 +63,7 @@ figure {
         padding-top: 5px;
     }
 }
+
+
+
+
